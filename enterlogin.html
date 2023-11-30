@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OnDev | Login</title>
+    <link rel="stylesheet" href="./CSS/style-enter.css" />
+    <link rel="stylesheet" href="./CSS/modal.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-image">
+        <img src="./img/img-form.png" />
+      </div>
+      <div class="form">
+        <form action="#">
+          <div class="form-header">
+            <div class="title">
+              <h1>Efetuar login</h1>
+
+               <!-- Center modal -->
+               <div class="button-modal">
+               <button type="button" onclick="abrirModal()">Cadastra-se</button>
+              </div>
+
+               <!-- Modal -->
+               <div id="meuModal" class="modal">
+                 <div class="modal-content">
+                  <div class="button">
+                   <span class="close" onclick="fecharModal()">&times;</span>
+                  </div>
+                   <h2>Selecione o tipo de usuário</h2>
+                   <br />
+                   <p>Seja você um criativo buscando projetos ou um cliente em busca de excelência, aqui é o seu lugar.
+                  </p>
+                   <button onclick="usuarioCad()">Usuário</button>
+                   <button onclick="developerCad()">Desenvolvedor</button>
+                 </div>
+               </div>
+      <!-- End Modal -->
+
+          <div class="input-group">
+            <div class="input-box">
+              <label for="email">E-mail</label>
+              <input
+                id="email"
+                type="email"
+                name="email"
+                placeholder="Digite um e-mail"
+                required
+              />
+            </div>
+
+            <div class="input-box">
+              <label for="password">Senha</label>
+              <input
+                id="password"
+                type="password"
+                name="password"
+                placeholder="Digite a senha"
+                required
+              />
+            </div>
+          </div>
+          <div class="user-inputs">
+            <div class="user-title">
+              <h6>Selecione o tipo de usuário</h6>
+            </div>
+
+            <div class="user-group">
+              <div class="user-input">
+                <input id="userLogin" type="radio" name="user" />
+                <label for="userLogin"> Usuário</label>
+              </div>
+
+              <div class="user-input">
+                <input id="developer" type="radio" name="user" />
+                <label for="developer"> Desenvolvedor</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="continue-button">
+            <button onclick="window.location.href='#'">Continuar</button>
+          </div>          
+        </form>
+      </div>
+    </div>
+    <script src="JS/enterlogin.js"></script>
+  </body>
+</html>
