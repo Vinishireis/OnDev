@@ -11,5 +11,4 @@ No cenário atual, a área de T.I é um campo em constante evolução, onde a co
 
 Uma das características mais distintivas da OnDev é sua abordagem centrada nas pessoas. A empresa entende que, por trás de cada código, servidor ou sistema de informação, há uma equipe de profissionais de T.I que desempenha um papel fundamental na transformação digital das organizações. Portanto, a OnDev investe na formação e no desenvolvimento contínuo de seus colaboradores, promovendo um ambiente de trabalho colaborativo e de aprendizado.
 
-<img width="929" alt="image" src="https://github.com/Vinishireis/OnDev/assets/95651095/4fefcdff-d38e-4b3d-b49f-f367dcc613ed">
 
