@@ -281,6 +281,7 @@ animation: show 0.75s ease-in-out 0.3s forwards;
   width: 80%;
   margin: 0 auto;
   align-self: center;
+  overflow-x: hidden;
 }
 
 
@@ -291,7 +292,7 @@ animation: show 0.75s ease-in-out 0.3s forwards;
   transform-style: preserve-3d;
   perspective: 600px;
   transition: 0.5s;
-}
+  }
 
 .box .frente {
   border: solid 10px whitesmoke;
@@ -391,6 +392,7 @@ section {
   justify-content: space-around;
   align-items: center;
   background-color: #1e1c1c;
+  overflow-x: hidden;
   
 }
 
@@ -481,6 +483,7 @@ section {
 }
 /*Container-OnDev*/
 .container-OnDev{
+  overflow-x: hidden;
   padding: auto;
   height: auto;
   margin: 50px;
