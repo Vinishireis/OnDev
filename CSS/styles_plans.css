@@ -362,24 +362,26 @@ a {
     padding: 1.9em 0 1.6em;
     pointer-events: auto;
     text-align: center;
-    color: #173d50;
+    color: #000000;
     background-color: transparent;
 }
 
 .exclusive .pricing-header {
-    color: #a1c2ff;
+    color: #000000;
     background-color: transparent;
 }
 
 .pricing-header h2 {
     font-size: 2.8rem;
     letter-spacing: 2px;
+    color: #000000;
 }
 
 .currency,
 .value {
 	font-size: 3rem;
 	font-weight: 300;
+  color: #000000;
 }
 
 .duration {
@@ -410,7 +412,7 @@ a {
 
 .exclusive .currency,
 .exclusive .duration {
-    color: #2d3e50;
+    color: #0b5fb9;
 }
 
 .currency {
