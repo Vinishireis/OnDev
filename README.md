@@ -1,7 +1,6 @@
 # OnDev
 Desenvolvimento do Site OnDev
 
-https://vinishireis.github.io/OnDev/
 
  A OnDev: Inovando no Mundo da Tecnologia da Informação
 
