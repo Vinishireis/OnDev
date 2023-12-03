@@ -281,7 +281,6 @@ animation: show 0.75s ease-in-out 0.3s forwards;
   width: 80%;
   margin: 0 auto;
   align-self: center;
-  overflow-x: hidden;
 }
 
 

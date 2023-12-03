@@ -8,11 +8,11 @@ function abrirModal() {
   }
 
   function usuarioCad(){
-    window.location.href = '/cadastrar.html';
+    window.location.href = 'cadastrar.html';
   }
 
   function developerCad(){
-    window.location.href = '/sectioncad.html';
+    window.location.href = 'caddeveloper.html';
   }
 
   // Fechar o modal ao clicar fora dele

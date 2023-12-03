@@ -26,19 +26,15 @@
                <!-- Modal -->
                <div id="meuModal" class="modal">
                  <div class="modal-content">
-                  <div class="button">
+                  <div class="button-close">
                    <span class="close" onclick="fecharModal()">&times;</span>
                   </div>
                    <h2>Selecione o tipo de usuário</h2>
                    <br />
                    <p>Seja você um criativo buscando projetos ou um cliente em busca de excelência, aqui é o seu lugar.
                   </p>
-                  <div class="button-modal-select-1">
-                  <a href="cadastrar.html" onclick="usuarioCad(); return false;">Usuário</a>
-                  </div>
-                  <div class="button-modal-select-2">
-                  <a href="caddeveloper.html" onclick="developerCad(); return false;">Desenvolvedor</a>
-                </div>
+                  <button onclick="usuarioCad()">Usuário</button>
+                  <button onclick="developerCad()">Desenvolvedor</button>
                  </div>
                </div>
       <!-- End Modal -->
