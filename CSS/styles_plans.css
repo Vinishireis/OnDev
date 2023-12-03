@@ -28,6 +28,15 @@ footer, header, hgroup, menu, nav, section, main {
 body {
 	line-height: 1;
 }
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.dark-mode {
+  background-color: #333333;
+  color: #ffffff;
+}
 ol, ul {
 	list-style: none;
 }

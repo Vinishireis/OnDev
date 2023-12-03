@@ -1,3 +1,21 @@
+ // Função para verificar e aplicar o tema com base nas configurações do dispositivo
+ function applyTheme() {
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+  if (prefersDark) {
+    document.body.classList.add('dark-mode');
+  } else {
+    document.body.classList.add('light-mode');
+  }
+}
+
+// Aplica o tema ao carregar a página
+applyTheme();
+
+// Adiciona um ouvinte de alteração para verificar alterações no tema
+window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', applyTheme);
+
+
 //Nav_Bar//
 function showSidebar(){
     const sidebar = document.querySelector('.sidebar')

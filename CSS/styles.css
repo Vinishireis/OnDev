@@ -13,8 +13,18 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     font-family: "Montserrat";
-   
 }
+
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.dark-mode {
+  background-color: #333333;
+  color: #ffffff;
+}
+
 nav{
     background-color: white;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);

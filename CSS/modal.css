@@ -4,6 +4,15 @@ Author: Jorge Chavez
 Github: http://github.com/jorgechavz
 */
 
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.dark-mode {
+  background-color: #333333;
+  color: #ffffff;
+}
 
 .pure-modal .checkbox{
   display: none;
