@@ -63,6 +63,33 @@ Github: http://github.com/jorgechavz
   transform: translateY(100%);
 }
 
+.button-modal-select-1{
+  width: 100%;
+  margin-top: 2.5rem;
+  color: white;
+  background: rgb(60, 60, 255);
+  align-items: center;
+  padding: 0.62rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer; 
+  align-items: center;
+  text-align: center;
+}
+
+.button-modal-select-2{
+  width: 100%;
+  margin-top: 2.5rem;
+  color: white;
+  background: rgb(60, 60, 255);
+  align-items: center;
+  padding: 0.62rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer; 
+  align-items: center;
+  text-align: center;
+}
 
 /* Close button */
 .pure-modal .pure-modal-overlay .close{
