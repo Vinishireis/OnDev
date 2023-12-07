@@ -164,20 +164,24 @@ main {
   & .title {
     font-family: 'arial-black';
     text-transform: uppercase;
+    color: black;
   }
 
   & .description {
     line-height: 1.7;
     margin: 1rem 0 1.5rem;
-    font-size: 0.8rem;
+    font-size: 0.2rem;
+    color: #000000;
+    text-decoration: underline;
+    color: #000000;
     text-shadow: #212121;
   }
 
   & button {
     width: fit-content;
     background-color: rgba(0,0,0,0.1);
-    color: white;
-    border: 2px solid white;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 0.25rem;
     padding: 0.75rem;
     cursor: pointer;
