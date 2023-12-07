@@ -170,9 +170,7 @@ main {
   & .description {
     line-height: 1.7;
     margin: 1rem 0 1.5rem;
-    font-size: 0.2rem;
-    color: #000000;
-    text-decoration: underline;
+    font-size: 0.8rem;
     color: #000000;
     text-shadow: #212121;
   }
