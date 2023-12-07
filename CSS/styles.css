@@ -298,7 +298,7 @@ animation: show 0.75s ease-in-out 0.3s forwards;
   width: 300px;
   height: 400px;
   transform-style: preserve-3d;
-  perspective: 600px;
+  perspective: 500px;
   transition: 0.5s;
   }
 
@@ -483,7 +483,6 @@ section {
 /*Sobre-OnDev*/
 
 .Sobre-Ondev-body{
-  background: linear-gradient(to right, #a246ef, #6523fe, #a246ef);
   text-decoration: #000000;
 }
 

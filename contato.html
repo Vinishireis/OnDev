@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OnDev</title>
+    <link rel="shortcut icon" href="IMG/logo-oficial.png" type="image/x-icon" />
+    <link rel="stylesheet" href="CSS/fonts-icones/untitled-font-1.svg">
+    <link rel="stylesheet" href="CSS/contato.css">
+    <link rel="shortcut icon" href="IMG/logo-oficial.png" type="image/x-icon" />
+</head>
+<body>
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="serviços.html">Serviços</a></li>
+            <li><a href="plans.html">Planos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="enterlogin.html">Login</a></li>
+        </ul>
+        <ul>
+            <li><a href="index.html">Ondev</a></li>
+            <li class="hideOnMobile"><a href="sobre.html">Sobre</a></li>
+            <li class="hideOnMobile"><a href="serviços.html">Serviços</a></li>
+            <li class="hideOnMobile"><a href="plans.html">Planos</a></li>
+            <li class="hideOnMobile"><a href="contato.html">Contato</a></li>
+            <li class="hideOnMobile"><a href="enterlogin.html">Login</a></li>
+            <li class="menu-button" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+    <div class="box-formulario">        
+        
+        <div class="formulario">
+            <img class="logo"  src="./img/logo-oficial.png" alt="logo">
+            <h1 class="title-form">Contato
+                <span class="subtitle-form">Fale conosco agora.</span>
+            </h1>
+
+            <form action="#" method="post">
+                     
+
+                <span>
+                    <input type="text" class="input" id="nome" name="nome" placeholder="Nome" autocomplete="off" required=""/>
+                    <label for="nome"> <i class="icon icon-user-1"></i> </label>
+                </span>
+
+                <span>
+                    <input type="text" class="input" id="email" name="email" placeholder="E-mail" autocomplete="off" required=""/>
+                    <label for="email"> <i class="icon icon-mail-1"></i> </label>
+                </span>
+
+                <span>
+                    <input type="text" class="input" id="assunto" name="assunto" placeholder="Assunto" autocomplete="off" required=""/>
+                    <label for="assunto"> <i class="icon icon-info"></i> </label>
+                </span>
+
+                <span>
+                    <textarea type="text" class="textarea" id="mensagem" name="mensagem" rows="3" placeholder="Mensagem" autocomplete="off" required=""></textarea>
+                    <label for="mensagem"> <i class="icon icon-comment"></i> </label>
+                </span>
+                
+                <span>
+                    <input type="submit" value="Enviar" class="botao rotacao">
+                </span>
+
+            </form>
+
+        </div>
+
+    </div><!--Box Formulario--> 
+       <!--RODAPÉ DA PÁGINA-->
+       <footer class="footer">
+        <div class="container-footer">
+          <div class="row">
+            <div class="footer-col">
+              <h4>OnDev</h4>
+              <ul>
+                <li><a href="index.html">Sobre nós</a></li>
+                <li><a href="termo_de_uso.html">Termos de Uso</a></li>
+                <li><a href="termo_segurança.html">Termos de segurança</a></li>
+                <li><a href="sobre.html">Política de Privacidade</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Prestadores</h4>
+              <ul>
+                <li><a href="plans.html">Benefícios</a></li>
+                <li><a href="contato.html">Suporte</a></li>
+                <li><a href="plans.html">Planos</a></li>
+                <li><a href="caddeveloper.html">Tornar prestador</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Serviços</h4>
+              <ul>
+                <li><a href="services-desenvolvedores.html">Desenvolvedor de Site</a></li>
+                <li><a href="services-mobile.html">Desenvolvedor de App</a></li>
+                <li><a href="services-design.html">Criador de Imagens</a></li>
+                <li><a href="services-desenvolvedores.html">Manutenção de Site</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Siga-nos</h4>
+              <div class="social-icon">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    <script src="./js/script-contato.js"></script>
+    <script src="https://kit.fontawesome.com/95a02bd20d.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script>
+    <script src='https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js'></script>
+    <script src='https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js'></script>
+    
+    
+</body>
+</html>
